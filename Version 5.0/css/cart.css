@@ -1,0 +1,26 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+nav :visited{
+    color: rgb(0, 0, 0);
+    word-spacing: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ nav :link{
+     color: rgb(0, 0, 0);
+     word-spacing: 12px;
+     text-align: center;
+     text-decoration: none;
+ }
+
+nav :active{
+    color: rgb(0, 0, 0);
+    word-spacing: 12px;
+    text-align: center;
+    text-decoration: none;
+}

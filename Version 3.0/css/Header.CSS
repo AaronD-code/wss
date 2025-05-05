@@ -1,0 +1,45 @@
+body {
+    background-color: brown;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ✅ Use display: flex */
+nav {    
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers nav links */
+    overflow: hidden;
+    flex-wrap: wrap; /* Allows items to wrap on small screens */
+    background-color: white;
+    padding: 10px;
+}
+
+/* ✅ Centered Links */
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+/* ✅ Corrected Pseudo-Classes */
+nav a:visited {
+    color: black;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:active {
+    color: black;
+}
+
+nav .login-button {
+    margin-left: auto;
+}
+
+nav .icon-container{
+    margin-left: auto;
+}
